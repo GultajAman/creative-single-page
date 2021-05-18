@@ -150,3 +150,60 @@
 }
 
 //////////////////////////////////// BRAND PART
+.brand {
+  display: flex;
+  &__left {
+    margin-top: 20rem;
+    margin-left: 16.3rem;
+    h3 {
+      width: 540px;
+      font-weight: 800;
+      font-size: 56px;
+      line-height: 64px;
+      color: #000000;
+    }
+  }
+  &__right {
+    width: 895px;
+    margin-top: -20.4rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #f94f4f;
+    overflow: hidden;
+
+    &-box {
+      padding: 8rem 18rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 5.6rem;
+    }
+    &-number {
+      font-weight: 800;
+      font-size: 80px;
+      line-height: 88px;
+      color: #ffffff;
+      mix-blend-mode: normal;
+      opacity: 0.25;
+      margin-right: -3rem;
+      margin-top: -15rem;
+    }
+    &-text {
+      width: 445px;
+      h5 {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 32px;
+        color: #ffffff;
+        margin-bottom: 2.4rem;
+      }
+      p {
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 32px;
+        color: #ffffff;
+      }
+    }
+  }
+}
